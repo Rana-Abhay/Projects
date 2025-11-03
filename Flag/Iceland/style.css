@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-color: red;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 100px;
+}
+.box{
+    background-color: white;
+}
+.first, .third{
+   
+    width: 150px;
+    height: 135px;
+    position: absolute;
+}
+.third{
+    bottom: 0px;
+
+}
+.second, .fourth{
+    width: 220px;
+    height: 135px;
+    position: absolute;
+}
+.second{
+    right: 0px;
+}
+.fourth{
+    bottom: 0px;
+    right: 0px;
+}
+.inside1,.inside3{
+    background-color: rgb(13, 15, 147);
+    width: 135px;
+    height: 120px;
+    position: absolute;
+}
+.inside3{
+    bottom: 0px;
+}
+.inside2, .inside4{
+    background-color:  rgb(13, 15, 147);
+    width: 205px;
+    height: 120px;
+    position: absolute;
+}
+.inside2{
+    right: 0px;
+}
+.inside4{
+    right: 0px;
+    bottom: 0px;
+}
