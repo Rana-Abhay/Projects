@@ -4,12 +4,17 @@
 }
 body{
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
 }
 .container{
     background-color: white;
     width: 400px;
     height: 300px;
     position: relative;
+    
 }
 .flag{
     background-color: rgb(197, 20, 20);
