@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+     
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(205, 28, 28);
+    position: absolute;
+    border-radius: 50%;
+    animation-name: ghumo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+
+    
+}
+
+.circle1{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 50%;
+   position: absolute;
+   top: 30px;
+   left: 80px;
+}
+.circle2{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(42, 234, 17);
+    border-radius: 50%;
+   position: absolute;
+   top: 60px;
+   left: 120px;
+}
+.circle3{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(242, 255, 0);
+    border-radius: 50%;
+   position: absolute;
+   top: 20px;
+   left: 40px;
+  
+   
+}
+@keyframes ghumo {
+    
+        from{
+            transform: rotate(odeg)  ;
+        }
+        to{
+            transform: rotate(360deg) ;
+        }
+    
+}
+    
+
+
+
