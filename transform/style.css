@@ -13,6 +13,8 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
+    perspective: 500px;
+    color: #f1f5f7;
      
 
 }
@@ -27,6 +29,9 @@ body{
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-timing-function: linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     
 }
@@ -71,6 +76,95 @@ body{
     
 }
     
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
+.box2{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
 
+.box3{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
 
+.box4{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+
+@keyframes box {
+
+    from{
+        background-color: blueviolet;
+        transform: translateZ(-200px);
+    }
+    to{
+        background-color: brown;
+        /* transform: translateZ(200px); */
+    }
+    
+}
